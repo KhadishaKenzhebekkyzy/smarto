@@ -1,0 +1,45 @@
+.flex-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  
+  .single-chart {
+    width: 33%;
+    justify-content: space-around ;
+  }
+  
+  .circular-chart {
+    display: block;
+    margin: 10px auto;
+    width: 200%;
+    height: 100%;
+  }
+  
+  .circle-bg {
+    fill: none;
+    stroke: #F2F2F2;
+    stroke-width: 3.8;
+  }
+  
+  .circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+  }
+  
+  @keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+  
+  .circular-chart.green .circle {
+    stroke: #00FAA4;
+  }
+  
+  .percentage {
+    fill: #434C5E;
+    font-size: 12px;
+    text-anchor: middle;
+  }

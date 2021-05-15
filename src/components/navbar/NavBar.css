@@ -1,0 +1,20 @@
+.nav-item{
+    width: 50%;
+    background-color: white;
+    padding: 5px;
+}
+
+.link {
+    color: #6C7589;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.link:hover, .link:focus, .link:active{
+    color: #1D2737;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
