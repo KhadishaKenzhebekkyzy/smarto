@@ -1,3 +1,15 @@
 .navbar-collapse {
     margin-left: 90%;
 }
+
+.navbar{
+    background-color: white;
+}
+
+nav{
+    text-align: left;
+}
+
+.navbar-toggler{
+    border: none;
+}

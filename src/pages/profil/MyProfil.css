@@ -1,11 +1,20 @@
 
 .MyProfil{
     text-align: left;
-    padding-top: 5%;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .center{
     text-align: center;
+}
+
+.modal-backdrop.show {
+    opacity: .43;
+}
+
+.modal-backdrop {
+    background-color: #C4C4C4;
 }
 
 h1{
@@ -41,7 +50,40 @@ p{
     width: 100%;
     height: 68px;
     margin-bottom: 10%;
-    padding-left: 2%;
+    padding-left: 3%;
+    position: relative;
+}
+
+.center-vertical-1{
+    position: relative;
+    top: 90%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: left;
+}
+
+.center-vertical-2{
+    position: relative;
+    top: 115%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: left;
+}
+
+.center-vertical-3{
+    position: relative;
+    top: 40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: left;
+}
+
+.center-vertical-4{
+    position: relative;
+    top: 80%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: left;
 }
 
 .card-2{
@@ -51,8 +93,25 @@ p{
     border: 1px solid #FFA900;
     box-sizing: border-box;
     border-radius: 10px;
-    margin-bottom: 5%;
-    padding-left: 2%;
+    margin-bottom: 150px;
+    padding-left: 3%;
+}
+
+.card-2:hover, .card-2:focus{
+    box-shadow: 0px 2px 10px rgba(29, 39, 55, 0.12);
+}
+
+.card-3{
+    width: 100%;
+    height: 68px;
+    background: #FFFFFF;
+    border: 1px solid #1CA777;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 10px rgba(29, 39, 55, 0.12);
+    border-radius: 0px 10px 10px 10px;
+    color: #434C5E;
+    font-family: Open Sans;
+    padding-left: 3%;
 }
 
 .btn-1{
@@ -104,4 +163,21 @@ p{
 .modal-content{
     border-radius: 10px 10px 0px 0px;
     border: none;
+}
+
+.modal-footer{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.fileName{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1CA777;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }

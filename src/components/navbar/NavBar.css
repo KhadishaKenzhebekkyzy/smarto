@@ -1,10 +1,23 @@
-.nav-item{
-    width: 50%;
-    background-color: white;
-    padding: 5px;
+
+.nav-tabs:focus {
+    border-bottom: 2px #1D2737;
 }
 
-.link {
+.nav-tabs{
+    width: 50%;
+    background-color: white;
+    text-align: center;
+}
+
+a{
+    width: 50%;
+}
+
+.nav{
+    width: 100%;
+}
+
+#controlled-tab-example-tab-profil, #controlled-tab-example-tab-loan {
     color: #6C7589;
     font-style: normal;
     font-weight: 500;
@@ -12,7 +25,8 @@
     line-height: 28px;
 }
 
-.link:hover, .link:focus, .link:active{
+#controlled-tab-example-tab-profil:hover, #controlled-tab-example-tab-profil:focus, #controlled-tab-example-tab-profil:active,
+#controlled-tab-example-tab-loan:hover, #controlled-tab-example-tab-loan:focus, #controlled-tab-example-tab-loan:active{
     color: #1D2737;
     font-weight: 600;
     font-size: 18px;
